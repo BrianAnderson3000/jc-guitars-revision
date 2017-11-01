@@ -1,0 +1,160 @@
+
+
+a {
+  color: black;
+  text-decoration: none;
+
+}
+
+a:hover{
+  text-decoration: none;
+  color: grey;
+}
+
+#about {
+
+  text-align: center;
+}
+
+#aboutp{
+  display: inline-block;
+  text-align: left;
+}
+
+
+#title {
+  text-align:center;
+}
+
+#contact {
+  color:green;
+}
+
+#contact:hover {
+  color:red;
+}
+
+
+
+
+footer {
+  margin-top:300px;
+}
+
+
+
+#item {
+  display: inline-flex;
+}
+
+
+
+img {
+  border-radius: 5px;
+  max-width:100%;
+  height:auto;
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+  /* For IE8 and earlier */
+}
+
+img:hover {
+  opacity: .5;
+  filter: alpha(opacity=50);
+  /* For IE8 and earlier */
+}
+
+
+p {
+font-size: 19px;
+}
+
+@media (min-width:1050px){
+#image {
+
+padding-right: 0px;
+}
+
+#brand {
+display: none;
+}
+
+
+
+
+
+
+}
+
+@media (max-width:1050px){
+
+  #name {
+    text-align: left;
+  }
+
+
+  #price {
+    text-align: left;
+  }
+
+
+
+
+
+  #name {
+    text-align: left;
+  }
+
+}
+
+
+
+
+#brand {
+
+  color: rgba(255,255,255,.5);
+  font-size: 18px;
+}
+
+
+  body {
+    text-align:center;
+  }
+
+    }
+  @media (max-width:601px){
+
+    #aboutp {
+      text-align: left;
+    }
+
+    #title {
+      text-align:left;
+    }
+
+   .about {
+     text-align: left;
+   }
+
+
+   #name {
+     text-align: left;
+   }
+
+   #item {
+    flex-direction:column;
+   }
+
+   #price {
+     text-align: left;
+   }
+
+   #con {
+     text-align: left;
+   }
+
+
+
+
+
+  }
